@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>마이페이지</title>
+<style type="text/css">
+
+header{
+	margin: auto;
+	padding: 10px;
+	width: 900px;
+	background-color: #D6DCE5;
+	border: 1px solid;
+	text-align: center;
+}
+header:hover{
+	color: white;
+}
+#back{
+	background-image: linear-gradient(#D6DCE5,white);
+}
+
+section{
+	margin: auto;
+	padding: 10px;
+	width: 900px;
+	height: 300px;
+	border: 1px solid;
+}
+.dropdown li{
+	list-style-type: none;
+	border: 1px solid;
+	background-color: #B4C7E7;
+}
+.dropdown{
+	position: relative;
+	border: solid 0px black;
+	padding: 10px;
+	text-align: center;
+}
+.dropdownContents{
+	display: none;
+	width: 700px;
+	position: absolute;
+	line-height: 30px;
+	border: 0px solid black;
+	float: center;
+}
+.dropdown:hover .dropdownContents{
+	display: block;
+}
+div{
+	border: 1px solid;
+	padding: 10px;
+	margin: auto;
+	width: 800px;
+	height: 200px;
+	text-align: center;
+}
+.bold{
+	font-size: 20px;
+}
+.bold:hover{
+	color: red;
+	font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<header>
+	<a href="mypage.html"><h2> MY PAGE </h2></a>
+</header>
+
+<section id="back">
+
+<div class="dropdown">
+	<span class="bold">자격증</span>
+	<ul>
+		<div class="dropdownContents">
+		<li>ITQ</li>
+		<li>MOS</li>
+		<li>전산회계2급</li>
+		<li>정보처리기능사</li>
+		
+		</div>
+	</ul>
+</div>
+<a href="index.html" style="font-size: 20px">BEFORE</a>
+</section>
+</body>
+</html>
